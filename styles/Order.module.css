@@ -1,4 +1,4 @@
-.container {
+ .container {
   padding: 50px;
   display: flex;
 }
@@ -14,9 +14,10 @@
 }
 
 .row:last-child {
-  width: 80%;
+  padding-top: 50px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 200px;
 }
 
 .done {

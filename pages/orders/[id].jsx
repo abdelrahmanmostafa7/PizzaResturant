@@ -36,6 +36,13 @@ const Order = () => {
             </tr>
           </table>
         </div>
+        <hr
+          style={{
+            background: "#d1411e",
+            height: "1px",
+            border: "none",
+          }}
+        />
         <div className={styles.row}>
           <div className={statusClass(0)}>
             <Image src="/img/paid.png" width={30} height={30} alt="" />
