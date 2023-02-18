@@ -9,8 +9,7 @@ const Featured = () => {
     "/img/featured2.png",
     "/img/featured3.png",
   ];
-
-  // Function to arrow 
+ 
   const handleArrow = (direction) =>{
       if(direction==="l"){
           setIndex(index !== 0 ? index-1 : 2)
