@@ -9,16 +9,18 @@ const Product = () => {
     img: "/img/pizza.png",
     name: "CAMPAGNOLA",
     price: [19.9, 23.9, 27.9],
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus, rhoncus fringilla vestibulum vel, dignissim vel ante. Nulla facilisi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus, rhoncus fringilla vestibulum vel, dignissim vel ante. Nulla facilisi. Nullam a urna sit amet tellus pellentesque.",
   };
 
   return (
     <div className={styles.container}>
+      
       <div className={styles.left}>
         <div className={styles.imgContainer}>
           <Image src={pizza.img} objectFit="contain" layout="fill" alt="" />
         </div>
       </div>
+
       <div className={styles.right}>
         <h1 className={styles.title}>{pizza.name}</h1>
         <span className={styles.price}>${pizza.price[size]}</span>

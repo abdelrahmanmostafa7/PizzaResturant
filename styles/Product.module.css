@@ -13,7 +13,8 @@
 
 .right {
   flex: 1;
-  padding: 20px;
+  padding: 50px 20px;
+  
 }
 
 .imgContainer {
@@ -29,6 +30,9 @@
   border-bottom: 1px solid #d1411e;
 }
 
+.desc{
+  width: 90%;
+}
 .sizes {
   width: 40%;
   display: flex;
@@ -42,14 +46,29 @@
   cursor: pointer;
 }
 
+.size:first-child{
+  transition: transform .4s;
+}
+.size:first-child:hover {
+  transform: scale(1.5);
+}
+
 .size:nth-child(2) {
   width: 40px;
   height: 40px;
+  transition: transform .4s;
+}
+.size:nth-child(2):hover {
+  transform: scale(1.5);
 }
 
 .size:last-child {
   width: 50px;
   height: 50px;
+  transition: transform .4s;
+}
+.size:last-child:hover {
+  transform: scale(1.5);
 }
 
 .number {
