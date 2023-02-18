@@ -12,8 +12,8 @@
 }
 
 .imgContainer {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   position: relative;
 }
 
@@ -21,7 +21,12 @@
   width: 100%;
   border-spacing: 20px;
 }
-
+.trTitle{
+  font-size: 25px;
+}
+.tr{
+  text-align: center;
+}
 .name {
   font-weight: 500;
   color: #d1411e;
